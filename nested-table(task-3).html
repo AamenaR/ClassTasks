@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman-task(table)</title>
+</head>
+<body>
+    <table border="2px" cellspacing="2px" cellpadding="4px" width="100%">
+        <!-- row1 -->
+        <tr>
+            <th colspan="2"><b>Invoice #9876543210</b></th>
+            <th colspan="2"><b>14 January 2025</b></th>
+            <th colspan="1"><b>NUM</b></th>
+        </tr>
+
+        <!-- row2 -->
+        <tr>
+            <td colspan="1"><b>Pay to:</b> <br>
+                <!-- first tableNest -->
+                <table>
+                <tr>
+                    <td>Acme Billing Co.</td>
+                </tr>
+                <tr>
+                    <td>123 Main St.</td>
+                </tr>
+                <tr>
+                    <td>Cityville, NA 12345</td>
+                </tr>
+            </td>
+             </table>
+             
+            <td colspan="3"><b>Customer:</b><br>
+                <!-- second tableNest -->
+                <table>
+                <tr>
+                    <td>John Smith</td>
+                </tr>
+                <tr>
+                    <td>321 Willow Way</td>
+                </tr>
+                <tr>
+                    <td>Southeast Northwestershire, MA 54321</td>
+                </tr>
+            </td>
+             </table>
+            
+            <td>1</td>
+       
+        </tr>
+
+        <!-- row3 -->
+        <tr>
+            <td>"Name"/Description</td>
+            <td>1</td>
+            <td>@</td>
+            <td>Cost</td>
+            <td>1</td>
+        </tr>
+
+        <!-- row4 -->
+        <tr>
+            <td>Paperclips</td>
+            <td>1000</td>
+            <td>0.01</td>
+            <td>10.00</td>
+            <td>1</td>
+        </tr>
+
+        <!-- row5 -->
+        <tr>
+           <td>Staples(box)</td>
+           <td>100</td>
+           <td>1.00</td>
+           <td>100.00</td>
+           <td>1</td> 
+        </tr>
+
+        <!-- row6 -->
+        <tr>
+            <td colspan="2" align="center"><b>Subtotal</b></td>
+            <td colspan="2">110.00</td>
+            <td>1</td>
+        </tr>
+
+        <!-- row7 -->
+        <tr>
+            <td colspan="2" align="center"><b>Tax</b></td>
+            <td>8%</td>
+            <td>8.80</td>
+            <td>1</td>
+        </tr>
+
+        <!-- row8 -->
+        <tr>
+            <td colspan="3" align="center"><b>Grand Total</b></td>
+            <td>$ 118.80</td>
+            <td>1</td>
+        </tr>
+
+        <!-- row9 -->
+        <tr>
+            <td colspan="2" align="center"><b>02-Mar-20</b></td>
+            <td colspan="2">April 10, 2020</td>
+            <td>1</td>
+        </tr>
+
+        <!-- row10 -->
+        <td colspan="1">
+            <!-- first tableNest  in row10-->
+            <table>
+            <tr>
+                <td>1</td>
+                
+            </tr>
+            <tr></tr>
+            <tr></tr>
+        </td>
+         </table>
+        <td colspan="3" cellspacing="1">
+            <table>
+                <tr>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td colspan="2">2</td>
+                </tr>
+        </td>
+        <td></td>
+
+         </table>
+        
+        <td>1</td>
+
+        <!-- row11 -->
+        <tr>
+            <td colspan="4">1</td>
+            <td>1</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
