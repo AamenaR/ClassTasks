@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background: #000;
+    /* background: linear-gradient(black, pink);
+    background-size: contain;
+    background-repeat: no-repeat; */
+
+}
+
+.main{
+    height: 300px;
+    width: 400px;
+    margin: auto;
+    margin-top: 250px;
+    border-radius: 20px;
+   
+    position: relative;
+}
+/* rgba(237, 229, 229, 0.3) */
+.card{
+    height: 300px;
+    width: 400px;
+    margin: auto;
+    margin-top: 250px;
+    border-radius: 20px; 
+    background:rgba(237, 229, 229, 0.3);
+    backdrop-filter: blur(8px);
+    color: rgb(227, 229, 229);
+    
+
+    /* position: relative; */
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    z-index: ; */
+}
+
+.flex{
+    display: flex;
+}
+
+.circle1{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: linear-gradient(red, pink);
+  position: absolute;
+  top: -25%;
+  left: 70%;  
+  z-index: -1;
+}
+
+.circle2{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: linear-gradient(rgb(133, 42, 182), pink);
+    position: absolute;
+    top: 70%;
+    left: -15%;
+    z-index:-1;  
+  }
+
+.circle3{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: linear-gradient(rgb(218, 228, 26), pink);
+    position: absolute;
+    top: -15%;
+    left: 15%;
+    z-index:-1;  
+  }
+
+
+
+
+
+/* card inside */
+.membership{
+    font-size: 20px;
+    padding: 30px;
+    padding-top: 35px;
+    letter-spacing: 2px;
+    
+    
+}
+
+.name{
+    font-size: 20px;
+    padding: 30px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    
+    margin-top: 80px;
+   
+}
+
+.tools{
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding: 30px;
+    
+    margin-top: -50px;
+}
+
+
+
+
+.icon{
+    height: 100px;
+    width:50%;
+    padding: 10px;
+    font-size: 80px;
+    text-align: right;
+    color: rgb(227, 229, 229);
+    /* display: flex; */
+    /* position: absolute;
+    top: 10%;
+    left: 65%; */
+    
+}
+
+.fa-circle-m{
+    font-size: 500px;
+    text-align: right;
+    /* z-index: 1; */
+  }
+

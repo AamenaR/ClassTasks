@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-bar{
+    height: 80px;
+    background: pink;
+}
+
+.nav-bar li{
+    display: inline;
+    background-color: aquamarine;
+    margin-right: 10px;
+    line-height: 80px;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.news-submenu{
+display: none;
+height: 200px;
+width: 250px;
+background: aqua;
+position: absolute;
+top: 100%;
+left: 0;
+}
+
+.nav-bar:hover .news-submenu{
+    display: block;
+}
+
