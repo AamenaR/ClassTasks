@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+ .logo{
+    text-align: left;  
+    margin-left: 10px;
+    font-weight: bold;
+    color: #cf3737;
+    display: inline;
+    }
+
+ .nav{ 
+    height: 60px;
+    background: pink;
+    text-align: right;
+    line-height: 60px;
+
+}
+.nav ul li{
+    display: inline;
+    /* border: 2px solid; */
+    color: #ffffff;
+
+    padding: 5px;
+    font-size: 15px;    
+}
+
+/* sign in button */
+
+.sign-up{
+    border: 1px solid white;
+    border-radius: 30px;
+    text-decoration: none;
+    background: transparent;
+    padding: 6px 12px;
+    font-size: 15px;
+    color: white;
+}
+
+
+
+
